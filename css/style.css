@@ -1,0 +1,37 @@
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popupClose {
+    display: none;
+}
+
+.popupOpen {
+    display: block;
+}
+
+.popupForm {
+    position: relative;
+    border: solid 1px black;
+    padding: 5px;
+    width: 375px;
+    height: 25px;
+    top: calc(100%/2 - 12px);
+    left: calc(100%/2 - 135px);
+}
+
+label {
+    display: block;
+}
+
+td, th {
+    border: solid 1px black;
+}

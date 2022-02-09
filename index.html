@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+        <link rel="stylesheet" href="css/style.css"/>
+    </head>
+    <body>
+        <table id="notes">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Note</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <form name="create">
+            <label>Note:
+                <input type="text" name="note" required/>
+            </label>
+            <input type="submit" value="Create"/>
+        </form>
+
+        <div class="popup popupClose">
+            <!-- <div class="popupContent"> -->
+                <form class="popupForm">
+                    <label>Change value:
+                        <input type="text" id="popupText">
+                        <input type="submit" id="popupEdit" value="Edit">
+                    </label>
+                </form>
+            <!-- </div> -->
+        </div>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>
